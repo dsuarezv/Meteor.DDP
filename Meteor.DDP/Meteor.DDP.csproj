@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncLock.cs" />
     <Compile Include="DdpClient.cs" />
     <Compile Include="DdpClientException.cs" />
     <Compile Include="EventArgs\DdpClientErrorEventArgs.cs" />

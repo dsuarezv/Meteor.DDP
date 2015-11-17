@@ -23,7 +23,8 @@ namespace Meteor.DDP
         private Uri _uri;
         private String _sessionId;
 
-        private Nito.AsyncEx.AsyncLock _sendLock = new Nito.AsyncEx.AsyncLock();
+        private AsyncLock _sendLock = new AsyncLock();
+
 
         public DdpClient(String url)
         {
